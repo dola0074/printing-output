@@ -1,4 +1,3 @@
-/* global confirm, console, prompt*/
 // TASK 1 
 
 var a = 3;
@@ -55,15 +54,3 @@ if (sum % 2 === 1) {
 } else if (sum % 2 === 0) {
     console.log("This is an even number"); 
 }
-
-var output = (if (sum % 2 === 1) + "\n" + "This is an odd number");
-            (}else if (sum % 2 === 0){ + "\n" + "This is an even number");
-
-alert(output);
-               
-/*
-//check if number is even or odd?
-5 % 2 = 1 //means a number is odd
-6 % 2 = 0 // means a number is even 
-
-*/
